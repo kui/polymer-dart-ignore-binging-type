@@ -1,0 +1,9 @@
+name: polymerdart_ignore_binding_type
+environment:
+  sdk: '>=1.11.0'
+dependencies:
+  polymer: '^0.16.0'
+transformers:
+- polymer:
+    entry_points:
+    - web/index.html

@@ -1,0 +1,20 @@
+<link rel="import" href="packages/polymer/polymer.html">
+<polymer-element name="my-app">
+  <template>
+    <table>
+      <tr>
+        <th><label for="number-input">input type="number"</label></th>
+        <td><input id="number-input" type="number" value="{{foo}}"></td>
+      </tr>
+      <tr>
+        <th><label for="text-input">input type="text"</label></th>
+        <td><input id="text-input" type="text" value="{{foo}}"></td>
+      </tr>
+      <tr>
+        <th>型情報:</th>
+        <td>{{foo.runtimeType.toString()}}</td>
+      </tr>
+    </table>
+    <script type="application/dart" src="my_app.dart"></script>
+  </template>
+</polymer-element>
